@@ -1,0 +1,19 @@
+[project]
+name = "fast-zero"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Felipe Pinto",email = "felipefernandespinto1093@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard] (>=0.133.0,<0.134.0)",
+    "pydantic-settings (>=2.13.1,<3.0.0)",
+    "sqlalchemy (>=2.0.47,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
